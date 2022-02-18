@@ -1,7 +1,7 @@
 # Camera Package
 UAV deployable camera package for monitoring hydrology and performing edge computing. 
 <p align="center">
-<img src="pics/V1.0/v1-module.png" alt="drawing" width="600"/>
+<img src="V1.0/pics/v1-module.png" alt="drawing" width="600"/>
 </p>
 <p align="center">
 Figure 1: Camera Package installed underneath a structure.

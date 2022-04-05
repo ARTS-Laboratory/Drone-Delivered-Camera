@@ -1,0 +1,13 @@
+The raspian OS on the Raspberry Pi is a 32-bit, which does not accept any full tensorflow object detection, so instead Tensorflow lite was used.
+
+The current training model is being used to detect faces, and is being trained on google-colab on my desktop computer since it can speed up the training with the 
+graphics card
+
+Currently I am training the model with ~45 images (much under desired amount), and validated with 10 images.  I am testing to see how much data is necessary to get
+reasonable facial detection.  With the 45 images, it had an average precision score of ~27%.  I am looking to see how much data is needed to get it to 50+% AP.
+
+The colab file used to train the model is https://colab.research.google.com/github/khanhlvg/tflite_raspberry_pi/blob/main/object_detection/Train_custom_model_tutorial.ipynb#scrollTo=OUqEpcYwAg8L
+
+Added 10 more images for a total of ~55, AP increased to 40%
+
+Experimenting with different repititions of going through the data to see how it effects average precision

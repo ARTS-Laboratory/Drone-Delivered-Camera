@@ -1,4 +1,5 @@
-# Camera Package
+# Rubin
+
 UAV deployable camera package for monitoring hydrology and performing edge computing. 
 <p align="center">
 <img src="V1.0/pics/v1-module.png" alt="drawing" width="600"/>
@@ -25,7 +26,25 @@ NRFCommunicate wraps a basic NRF circuit-python package. The goal is to create a
 1.	Takes picture whenever it gets a signal from the NRF
 1.	Images stored on a SD card on the PI (not sure how to extract data)
 1.	Has the electro permanent magnet that can turn on and off with a signal from the NRF (need to see if we can integrates this with the controller from the gauge sensor)
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
